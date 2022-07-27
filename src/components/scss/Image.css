@@ -1,0 +1,17 @@
+.img {
+  background-image: url(../images/image-product-mobile.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 15rem;
+  width: 100%;
+  border-radius: .5rem .5rem 0 0;
+}
+
+@media (min-width: 800px) {
+  .img {
+    background-image: url(../images/image-product-desktop.jpg);
+    border-radius: .5rem 0 0 .5rem;
+    height: 22.5rem;
+  }
+}

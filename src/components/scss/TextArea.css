@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Fraunces;
+  src: url(../fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+.cardText {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0 0 .5rem .5rem;
+}
+
+.cardText .perfume {
+  font-family: Montserrat;
+  text-transform: uppercase;
+  color: #6c7289;
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+}
+
+.cardText .brandName {
+  font-family: Fraunces;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.cardText .card-subtxt {
+  font-family: Montserrat;
+  color: #6c7289;
+  font-size: .89rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+}
+
+.cardText .priceSection {
+  margin: 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cardText .priceSection h2 {
+  font-weight: 700;
+  color: #3c8067;
+  font-family: Fraunces;
+  font-size: 2rem;
+}
+
+.cardText .priceSection p {
+  font-family: Montserrat;
+  color: #6c7289;
+  text-decoration: line-through;
+}
+
+@media (min-width: 800px) {
+  .cardText {
+    border-radius: 0 .5rem .5rem 0;
+  }
+}

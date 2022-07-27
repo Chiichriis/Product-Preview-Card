@@ -1,0 +1,59 @@
+@import 'config';
+
+.cardText{
+    background-color: $White;
+    padding: 1.5rem;
+    border-radius: 0 0 .5rem .5rem;
+
+
+    .perfume{
+        font-family: $subFontFamily;
+        text-transform: uppercase;
+        color: $darkGrayishBlue;
+        font-size: .7rem;
+        font-weight: 700;
+        letter-spacing: .3rem;
+    }
+
+    .brandName{
+        font-family: $mainFontFamily;
+        font-weight: 700;
+        font-size: 2rem;
+        margin: 1rem 0 ;
+    }
+
+    .card-subtxt{
+        font-family: $subFontFamily;
+        color: $darkGrayishBlue;
+        font-size: .89rem;
+        font-weight: 700;
+        line-height: 1.5rem;
+    }
+
+    .priceSection{
+        margin: 1rem 0;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        h2{
+          font-weight: 700;
+          color: $darkCyan;
+          font-family: $mainFontFamily;  
+          font-size: 2rem;
+        }
+
+        p{
+            font-family: $subFontFamily;
+            color: $darkGrayishBlue;
+            text-decoration: line-through;
+        }
+    }
+}
+
+
+@media (min-width: 800px) {
+    .cardText{
+        border-radius: 0 .5rem .5rem 0;
+    }
+}

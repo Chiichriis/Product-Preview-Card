@@ -1,0 +1,11 @@
+@import 'config';
+
+button{
+    @include btn;
+    gap: .5rem;
+}
+
+button:hover{
+    background-color: $veryDarkBlue;
+    transition: ease .2s;
+}

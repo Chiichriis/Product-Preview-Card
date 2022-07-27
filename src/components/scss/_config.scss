@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Fraunces;
+    src: url(../fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+$subFontFamily: Montserrat;
+$mainFontFamily: Fraunces;
+
+$darkCyan: hsl(158, 36%, 37%);
+$Cream: hsl(30, 38%, 92%);
+$veryDarkBlue: hsl(212, 21%, 14%);
+$darkGrayishBlue: hsl(228, 12%, 48%);
+$White: hsl(0, 0%, 100%);
+
+@mixin btn {
+    width: 100%;
+    background-color: $darkCyan;
+    color: $White;
+    font-family: $subFontFamily;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-size: .8rem;
+    font-weight: 700;
+    border-radius: .5rem;
+    border: none;
+    cursor: pointer;
+}
